@@ -1,0 +1,65 @@
+================================================================================
+FRAUD DETECTION MODEL PERFORMANCE REPORT
+================================================================================
+Generated: 2025-11-02 14:24:29
+
+CLASSIFICATION METRICS
+--------------------------------------------------------------------------------
+Accuracy:        0.9997 (99.97%)
+Precision:       0.8483
+Recall:          0.9776
+F1 Score:        0.9084
+ROC-AUC:         0.9954
+Average Precision: 0.9772
+
+ADDITIONAL METRICS
+--------------------------------------------------------------------------------
+Specificity:     0.9997
+Sensitivity:     0.9776
+False Positive Rate: 0.0003
+False Negative Rate: 0.0224
+
+DATASET INFORMATION
+--------------------------------------------------------------------------------
+Total Samples:   284,807
+Normal:          284,315 (99.83%)
+Fraud:           492 (0.17%)
+
+PREDICTION RESULTS
+--------------------------------------------------------------------------------
+Predicted Normal: 284,240
+Predicted Fraud:  567
+Threshold:       0.50
+
+CONFUSION MATRIX
+--------------------------------------------------------------------------------
+                Predicted
+              Normal  Fraud
+Actual Normal   284229      86
+Actual Fraud       11     481
+
+DETAILED CLASSIFICATION REPORT
+--------------------------------------------------------------------------------
+0:
+  precision: 1.0000
+  recall: 0.9997
+  f1-score: 0.9998
+  support: 284315.0000
+1:
+  precision: 0.8483
+  recall: 0.9776
+  f1-score: 0.9084
+  support: 492.0000
+accuracy: 0.9997
+macro avg:
+  precision: 0.9241
+  recall: 0.9887
+  f1-score: 0.9541
+  support: 284807.0000
+weighted avg:
+  precision: 0.9997
+  recall: 0.9997
+  f1-score: 0.9997
+  support: 284807.0000
+
+================================================================================
